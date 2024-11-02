@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Základní, lidská práva. Ach ano. A co má každý člověk? Tělo! Jak to že tedy mezi lidskými právy zcela chybí ochrana
+tělesné svobody? Především se ale petice zasazuje o začlenění potratu mezi lidská práva, kdy Listina jen vágně
+deklaruje: „Lidský život je hoden ochrany i před narozením“.**
 
-## Getting Started
+# Petice o začlenění práva na potrat i jinou tělesnou svobodu do Listiny základních práv a svobod
 
-First, run the development server:
+Vážení poslanci,
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+my níže podepsaní občané České republiky, obracíme se na Vás, jako na námi zvolené ústavodárce s prosbou o změnu Listiny
+základních práv a svobod tak, abychom měli ústavně zaručenou tělesnou svobodu, včetně práva na potrat i právo odmítnout
+zákroky na svém těle.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Věříme totiž, že člověka tvoří vedle duše i tělo, a jeho základním právem by proto mělo být rozhodování o něm.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Žena má ten dar přivést nový život na svět a Listina by měla jednoznačně tento dar odmítnout jako povinnost. Během
+těhotenství se tělo ženy namáhá a za situace, kdy potrat vůbec zvažuje, o to víc.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Právo na tělesnou integritu zmiňuje občanský zákoník, podmínku souhlasu nalezneme v zákonu o zdravotních službách. Je to
+přitom něco, co patří do stejné kategorie jako právo na život nebo postup zadržení ve zdravotním ústavu, který je v
+Listině též nastíněn. A není to věc o nic méně důležitá.
 
-## Learn More
+Článek by mohl vypadat například takto:
 
-To learn more about Next.js, take a look at the following resources:
+**Článek X**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+(1) Každý má právo odmítnout zákrok na svém těle. Zákon může stanovit výjimku v případě ochrany veřejného zdraví nebo v
+případě, jde-li o vážné ohrožení života nebo zdraví.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+(2) Žena má právo na potrat. Je nepřípustné ženu nutit do takovéhoto či podobného rozhodnutí. Podrobnosti stanoví zákon.
 
-## Deploy on Vercel
+> Moje tělo, moje volba
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Petici připravil
+
+<table style="width: 100%">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid;">
+                Tomáš Wróbel
+            </td>
+            <td style="border: 1px solid;">
+                Opavská 818/71,<br>708 00 Ostrava-Poruba
+            </td>
+            <td style="border: 1px solid;">
+                <img src="public/podpis.png" height="50">
+            </td>
+        </tr>
+    </tbody>
+</table>

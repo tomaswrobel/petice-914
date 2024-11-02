@@ -1,101 +1,104 @@
-import Image from "next/image";
+export default async function Home() {
+	const {pocetPodpisu} = await fetch("https://portal.gov.cz/epetice/api/v1/petice/914").then(r => r.json());
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+	return (
+		<div className="bg-[#f5f5f5] text-slate-800 p-4 lg:p-10 dark:bg-slate-950 dark:text-slate-50">
+			<h1 className="text-4xl font-light my-8">
+				Začlenění práva na potrat i jinou tělesnou svobodu do Listiny základních práv a svobod
+			</h1>
+			<main className="bg-white max-w-screen-md p-4 my-8 lg:p-8 dark:bg-slate-900">
+				<p className="text-slate-950 mb-7 tracking-wide font-bold dark:text-slate-50">
+					Základní, lidská práva. Ach ano. A co má každý člověk? Tělo! Jak to že tedy mezi lidskými právy
+					zcela chybí ochrana tělesné svobody? Především se ale petice zasazuje o začlenění potratu mezi
+					lidská práva, kdy Listina jen vágně deklaruje: „Lidský život je hoden ochrany i před narozením“.
+				</p>
+				<p className="text-right">
+					Parlament České republiky
+					<br />
+					Poslanecká sněmovna
+					<br />
+					Sněmovní 176/4
+					<br />
+					Malá Strana
+					<br />
+					118 00 Praha 1
+				</p>
+				<p className="mb-2">Zmocnění: § 1 odst. 1 zákona č. 85/1990 Sb.</p>
+				<h2 className="font-bold text-2xl my-4">
+					Petice o začlenění práva na potrat i jinou tělesnou svobodu do Listiny základních práv a svobod
+				</h2>
+				<p className="mb-6">Vážení poslanci,</p>
+				<p className="my-4">
+					my, níže podepsaní občané České republiky, obracíme se na Vás, jako na námi zvolené ústavodárce
+					s&nbsp;prosbou o změnu Listiny základních práv a svobod tak, abychom měli ústavně zaručenou tělesnou
+					svobodu, včetně práva na potrat i právo odmítnout zákroky na svém těle.
+				</p>
+				<p className="my-4">
+					Věříme totiž, že člověka tvoří vedle duše i tělo, a jeho základním právem by proto mělo být
+					rozhodování o něm.
+				</p>
+				<p className="my-4">
+					Žena má ten dar přivést nový život na svět a Listina by měla jednoznačně tento dar odmítnout jako
+					povinnost. Během těhotenství se tělo ženy namáhá a za situace, kdy potrat vůbec zvažuje, o&nbsp;to
+					víc.
+				</p>
+				<p className="my-4">
+					Právo na tělesnou integritu zmiňuje občanský zákoník, podmínku souhlasu nalezneme v&nbsp;zákonu o
+					zdravotních službách. Je to přitom něco, co patří do stejné kategorie jako právo na život nebo
+					postup zadržení ve zdravotním ústavu, který je v&nbsp;Listině též nastíněn. A není to věc o nic méně
+					důležitá.
+				</p>
+				<p className="mt-4 mb-2">Článek by mohl vypadat například takto:</p>
+				<h3 className="font-black my-1">Článek X</h3>
+				<p>
+					(1) Každý má právo odmítnout zákrok na svém těle. Zákon může stanovit výjimku v&nbsp;případě ochrany
+					veřejného zdraví nebo v&nbsp;případě, jde-li o vážné ohrožení života nebo zdraví.
+				</p>
+				<p>
+					(2) Žena má právo na potrat. Je nepřípustné ženu nutit do takovéhoto či podobného rozhodnutí.
+					Podrobnosti stanoví zákon.
+				</p>
+				<p className="text-lg my-6">Moje tělo, moje volba</p>
+				<hr className="my-6" />
+				<p className="my-6">Petici připravil</p>
+				<table cellPadding={7} cellSpacing={0} className="w-full">
+					<tbody>
+						<tr>
+							<td className="border border-black p-1 dark:border-white">
+								<p>Tomáš Wróbel</p>
+							</td>
+							<td className="border border-black p-1 dark:border-white">
+								<p>
+									Opavská 818/71,
+									<br />
+									708 00 Ostrava-Poruba
+								</p>
+							</td>
+							<td className="border border-black p-1 dark:border-white">
+								<p>
+									<img src="/podpis.png" width="92" height="49" className="dark:invert" />
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<p className="mt-8">
+					<a href="https://portal.gov.cz/epetice/petice/914" download className="text-brand underline">
+						<svg viewBox="0 0 512 512" className="w-4 h-4 inline-block mr-2" fill="currentColor">
+							<path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+						</svg>
+						Stáhnout originál
+					</a>
+				</p>
+			</main>
+			<h2 className="text-2xl text-slate-800 dark:text-slate-50">Aktuální počet podpisů</h2>
+			<p className="text-2xl text-slate-800 dark:text-slate-50 mb-6">{pocetPodpisu}</p>
+			<a
+				href="https://obcan.portal.gov.cz/podani/epetice/seznam/petice/914"
+				className="text-white rounded-[4px] p-4 inline-block bg-brand"
+			>
+				Podepsat petici
+			</a>
+		</div>
+	);
 }
