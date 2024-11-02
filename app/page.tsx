@@ -89,11 +89,15 @@ export default async function Home() {
 					</tbody>
 				</table>
 				<p className="mt-8">
-					<a href="https://portal.gov.cz/epetice/petice/914" download className="text-brand underline">
+					<a
+						href="https://portal.gov.cz/e-petice/914-zacleneni-prava-na-potrat-i-jinou-telesnou-svobodu-do-listiny-zakladnich-prav-a-svobod"
+						target="_blank"
+						className="text-brand underline"
+					>
 						<svg viewBox="0 0 512 512" className="w-4 h-4 inline-block mr-2" fill="currentColor">
-							<path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+							<path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
 						</svg>
-						Stáhnout originál
+						Portál ePetice
 					</a>
 				</p>
 			</main>
