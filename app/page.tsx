@@ -76,7 +76,13 @@ export default async function Home() {
 							</td>
 							<td className="border border-black p-1 dark:border-white">
 								<p>
-									<img src="/podpis.png" width="92" height="49" className="dark:invert" />
+									<img
+										src="/podpis.png"
+										width="92"
+										height="49"
+										className="dark:invert"
+										alt="Wróbel"
+									/>
 								</p>
 							</td>
 						</tr>
@@ -93,12 +99,16 @@ export default async function Home() {
 			</main>
 			<h2 className="text-2xl text-slate-800 dark:text-slate-50">Aktuální počet podpisů</h2>
 			<p className="text-2xl text-slate-800 dark:text-slate-50 mb-6">{pocetPodpisu}</p>
-			<a
-				href="https://obcan.portal.gov.cz/podani/epetice/seznam/petice/914"
-				className="text-white rounded-[4px] p-4 inline-block bg-brand"
-			>
-				Podepsat petici
-			</a>
+			<p>
+				<span className="rounded-[4px] bg-black inline-block">
+					<a
+						href="https://obcan.portal.gov.cz/podani/epetice/seznam/petice/914"
+						className="text-white rounded-[4px] p-4 inline-block bg-brand hover:bg-opacity-80"
+					>
+						Podepsat petici
+					</a>
+				</span>
+			</p>
 		</div>
 	);
 }

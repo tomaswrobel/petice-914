@@ -44,7 +44,7 @@ Petici připravil
                 Opavská 818/71,<br>708 00 Ostrava-Poruba
             </td>
             <td style="border: 1px solid;">
-                <img src="public/podpis.png" height="50">
+                <img src="public/podpis.png" height="50" alt="Wróbel">
             </td>
         </tr>
     </tbody>
