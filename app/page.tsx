@@ -1,5 +1,5 @@
 export default async function Home() {
-	const {pocetPodpisu} = await fetch("https://portal.gov.cz/epetice/api/v1/petice/914").then(r => r.json());
+	const {pocetPodpisu} = await fetch("/api").then(r => r.json());
 
 	return (
 		<div className="bg-[#f5f5f5] text-slate-800 p-4 lg:p-10 dark:bg-slate-950 dark:text-slate-50">
