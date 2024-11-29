@@ -1,6 +1,6 @@
-export default async function Home() {
-	const {pocetPodpisu} = await fetch("/api").then(r => r.json());
+import Signs from "./signs";
 
+export default async function Home() {
 	return (
 		<div className="bg-[#f5f5f5] text-slate-800 p-4 lg:p-10 dark:bg-slate-950 dark:text-slate-50">
 			<h1 className="text-4xl font-light my-8">
@@ -102,7 +102,7 @@ export default async function Home() {
 				</p>
 			</main>
 			<h2 className="text-2xl text-slate-800 dark:text-slate-50">Aktuální počet podpisů</h2>
-			<p className="text-2xl text-slate-800 dark:text-slate-50 mb-6">{pocetPodpisu}</p>
+			<Signs />
 			<p>
 				<span className="rounded-[4px] bg-black inline-block">
 					<a
